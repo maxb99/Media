@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Media</title>
+	<link rel="stylesheet" href="develop.css">
+	<script>
+		function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</head>
+<body>
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">BURGER</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#child1">Child1</a>
+    <a href="#child2">child2</a>
+    <a href="#child3">child3</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+	<div class="daddy">
+		<div class="child">children 01</div>
+		<div class="child">children 02</div>
+		<div class="child">children 03</div>
+		<div class="child">children 04</div>
+		<div class="child">children 05</div>
+		<div class="child">children 06</div>
+		<div class="child">children 07</div>
+		<div class="child">children 08</div>
+		<div class="child">children 09</div>
+		<div class="child">children 10</div>
+		<div class="child">children 11</div>
+		<div class="child">children 12</div>
+	</div>
+</body>
+</html>
